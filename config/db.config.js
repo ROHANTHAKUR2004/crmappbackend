@@ -1,5 +1,5 @@
 require('dotenv').config();
 
-const mongoDbUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/crmApp';
-const dbName = "crmapp-db";
+const mongoDbUri = 'mongodb+srv://rohanthakur89768:1L8RxgVnmRSpCKNw@crm.zk0mpv3.mongodb.net/CRm?retryWrites=true&w=majority&appName=CRm ';
+const dbName = "CRm";
 module.exports = { mongoDbUri, dbName };
