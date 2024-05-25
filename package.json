@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "This is CRM app",
   "main": "index.js",
-  "type": "commonjs",
   "scripts": {
     "start": "node index.js",
     "test": "jest --testEnvironment=node --coverage"
