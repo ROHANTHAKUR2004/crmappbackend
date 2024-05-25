@@ -4,7 +4,7 @@ const app = express();
 const bodyParser = require('body-parser')
 const PORT = require("./config/server.config");
 const { mongoDbUri } = require("./config/db.config");
-const authRoutes = require('./routes/auth.routes');
+const authRoutes = require('./routes/auth.routes.js');
 const userRoutes = require('./routes/user.routes');
 const ticketRoutes = require('./routes/ticket.routes');
 app.use(function (req, res, next) {
